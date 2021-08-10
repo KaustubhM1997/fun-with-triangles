@@ -1,81 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculating Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
+    
     <nav>
 
-        <a href="index1.html">Is Triangle?</a>
-        <a href="index2.html">Triangle Quiz</a>
-        <a href="index3.html">Calculate Hypotenuse</a>
-        <a href="index.html">Area of a Triangle</a>
+        <a href="index.html">Is Triangle?</a>
+        <a href="trianglequiz.html">Triangle Quiz</a>
+        <a href="hypotenuse.html">Calculate Hypotenuse</a>
+        <a href="area.html">Area of a Triangle</a>
 
 
     </nav>
 
-    <h1>Triangle Quiz</h1>
+    <h1>Calculate Hypotenuse</h1>
 
 
-    <form class="quiz-form">
+    <label>a =</label>
+    <input class="input" type="number">
 
-        <div>
+    <label>b =</label>
+    <input class="input" type="number">
 
-            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
-
-            <label> <input type="radio" value="45" name="question1"/> 45</label>
-
-            <label>
-
-
-                <input type="radio" value="60" name="question1"/>60
-
-
-            </label>
-
-            <label>
-
-                <input type="radio" value="90" name="question1" />90
-
-
-            </label>
-
-
-        </div>
-
-        <div>
-
-
-            <p>If a triangle has an angle of 90 degrees, what is it called?</p>
-
-            <label><input type="radio" value="obtuse" name="question2" />obtuse</label>
-
-            <label><input type="radio" value="acute" name="question2" />acute</label>
-
-            <label><input type="radio" value="right-angled" name="question2" />right-angled</label>
-
- 
-        </div>
-
-
-    </form>
-
-    <button id="submit-btn">Check</button>
+    <button id="calculate">Calculate Hypotenuse</button>
 
     <div id="output"></div>
 
-
-
-
-
-
-    <script src="trianglequiz.js" type="text/javascript"></script>
+    <script src="hypotenuse.js" type="text/javascript"></script>
+    
 </body>
-
 </html>
