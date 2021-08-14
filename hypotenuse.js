@@ -11,12 +11,6 @@ function calculateHypotenuse() {
 
     outputDiv.innerText = "The length of the hypotenuse is " + lengthOfHypotenuse;
 
-
-    
-
- 
-
-
 }
 
 function calculateSum(a,b) {
