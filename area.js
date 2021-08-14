@@ -8,7 +8,7 @@ function findArea() {
 
     const area = calculateArea(Number(areaInputs[0].value), Number(areaInputs[1].value));
 
-    outputDiv.innerText = "The area of the triangle is " + area;
+    outputDiv.innerText = "The area of the triangle is " + area + " square cm";
     
 }
 
