@@ -7,7 +7,7 @@ function calculateHypotenuse() {
 
     const storeSum = calculateSum(Number(inputs[0]. value), Number(inputs[1].value));
 
-    const lengthOfHypotenuse = Math.sqrt(storeSum);
+    const lengthOfHypotenuse = Math.sqrt(storeSum).toFixed(2);
 
     outputDiv.innerText = "The length of the hypotenuse is " + lengthOfHypotenuse;
 
