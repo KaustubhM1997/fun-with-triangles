@@ -5,6 +5,7 @@
     --primary-color: 
     #4F46E5;
     --secondary-color: #6B7280;
+    --light-indigo: #818CF8;
 }
 
 
@@ -51,6 +52,7 @@ p {
     font-size: 1.2rem;
     color: var(--primary-color);
     font-weight: bold;
+    margin-top: 3.5rem;
 }
 
 .navigation {
@@ -105,6 +107,26 @@ p {
     color: white;
 }
 
+.diff-input > input{
+
+    display: inline;
+  
+}
+
+
+.diff-input {
+
+    display: inline;
+    margin: 0rem 0.5rem;
+    
+
+}
+
+.outerDiv {
+
+    text-align: center;
+}
+
 button{
 
     display: block;
@@ -118,8 +140,13 @@ button{
     border: none;
     width: 7rem;
     font-size: 1rem;
+    cursor: pointer;
 
+}
 
+button:hover {
+
+    background-color: var(--light-indigo);
 }
 
 #output {
@@ -160,3 +187,5 @@ button{
 
     font-size: 1.5rem;
 }
+
+

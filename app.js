@@ -20,7 +20,7 @@ function checkTriangle() {
 
     if(storeSum === 180){
 
-        outputDiv.innerText = "Yay, the angles forms a Triangle!";
+        outputDiv.innerText = "Yay, the angles form a Triangle!";
     }
 
     else {
